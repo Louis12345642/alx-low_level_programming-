@@ -1,5 +1,6 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef LISTS_H
+#define LISTS_H
+
 
 void free_list(list_t *head);
 size_t list_len(const list_t *h);
