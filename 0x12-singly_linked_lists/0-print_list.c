@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include "lists.h"
+#include "main.h"
 
 /**
- * print_list function prints al the members of a linklist
- * we are using h as pointer to list_t
+ * print_list - this function print nodes of a linked list
+ * @h: is pointer to the list_t list to print of the link_list
  *
- * This function returns the number of node in a linklist
+ * Return: the  function returns the number of nodes printed
  */
 size_t print_list(const list_t *h)
 {
@@ -23,4 +23,4 @@ size_t print_list(const list_t *h)
 
 	return (size);
 }
-i
+
