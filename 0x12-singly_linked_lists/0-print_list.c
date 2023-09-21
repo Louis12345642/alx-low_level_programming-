@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include "lists.h"
 
 /**
  * print_list function prints al the members of a linklist
