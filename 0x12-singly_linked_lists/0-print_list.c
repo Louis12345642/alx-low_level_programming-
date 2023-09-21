@@ -2,25 +2,25 @@
 #include "main.h"
 
 /**
-This print_list function prints all the number of nodes 
-int the linklist
-pointer *head: this is the head of the linklist
+ * print_list function prints al the members of a linklist
+ * we are using h as pointer to list_t
+ *
+ * This function returns the number of node in a linklist
  */
-
-size_t print_list(const list_t *head)
+size_t print_list(const list_t *h)
 {
 	size_t size = 0;
 
-	while (head)
+	while (h)
 	{
-		if (!head->str)
+		if (!h->str)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", head->len, head->str);
-		head = head->next;
+			printf("[%u] %s\n", h->len, h->str);
+		h = h->next;
 		size++;
 	}
 
 	return (size);
 }
-
+i
