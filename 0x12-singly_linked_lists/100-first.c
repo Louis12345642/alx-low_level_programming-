@@ -12,4 +12,3 @@ void first(void)
 	printf("I bore my house upon my back!\n");
 }
 
-i
