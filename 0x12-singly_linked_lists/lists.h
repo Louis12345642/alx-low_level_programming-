@@ -8,7 +8,7 @@
  * @next: this is the next node in the linklist 
  *
  * Description: this is the singley linklist project 
- * 
+ * of the link list project
  */
 typedef struct list_s
 {
